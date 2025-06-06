@@ -54,3 +54,25 @@ ul a {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.features {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  background-color: cadetblue;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: lightcoral;
+}
+
+.call-to-action {
+  background-color: darkorange;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
