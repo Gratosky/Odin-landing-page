@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   display: flex;
@@ -7,17 +7,8 @@ body {
   min-height: 100vh;
 }
 
-.content {
-  margin: 0;
-  display: flex;
-  overflow: hidden;
-  flex: 1;
-  background-color: yellow;
-  flex-direction: column;
-}
-
 .header {
-  background-color: green;
+  background-color: #1f2937;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -37,15 +28,36 @@ ul a {
   text-decoration: none;
 }
 
+.content {
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-grow: 0;
+  background-color: #1f2937;
+  color: #f4f4f4;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero {
-  background-color: blue;
+  background-color: #1f2937;
   color: white;
   padding: 20px;
   display: flex;
@@ -82,16 +94,16 @@ ul a {
 }
 
 .call-to-action {
-  background-color: darkorange;
+  background-color: #1f2937;
   color: white;
   padding: 20px;
   text-align: center;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 500px;
   margin: 20px auto;
 }
 
@@ -101,7 +113,7 @@ img {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: #3882f6;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -111,4 +123,9 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+.call-to-button {
+  border: 5px;
+  border-color: white;
 }
